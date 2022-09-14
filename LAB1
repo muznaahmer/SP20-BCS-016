@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+</head>
+<body>
+  
+<h5>Muzna ahmer</h5>
+<h5>muznaahmer@gmail.com</h5>
+<h5>0300000000</h5>
+<img src="download.jpeg" >
+  <h2>Objective </h2>
+  <p>This job will help me gain experience and learn more things for the betterment of my profession. I will learn ardently, will do assigned tasks with proficiency and learn with the help of group tasks.</p>
+<h2>Education</h2>
+<ul>COMSATS UNIVERSITY, LAHORE, PAKISTAN
+  <ul>
+  <li> BCS</li>
+  <li>computer science</li>
+</ul>
+</ul>
+<ul>Punjab College
+<ul>
+  <li>intermediate</li>
+<li>2019</li>
+</ul>
+</ul>
+<h2>Experience</h2>
+<p>I had previously attended this job-related seminars and did free-lancing in my previous semesters, so, I have a little know how about this job requirements.</p>
+<h2>Languages</h2>
+<ul>
+  <p>i can speak following languages</p>
+  <li>English</li>
+  <li>urdu</li>
+  <li>korean</li>
+  <li>turkish</li>
+</ul>
+
+</body>
+</html>
