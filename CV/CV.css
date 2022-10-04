@@ -1,0 +1,65 @@
+header{
+    background-color: rgb(0, 157, 255);
+    height :150px;
+    width:1190px;
+    color: white;
+    font-family:'arial';
+    font-size:25px;
+    font-weight: bolder;
+    display: inline-flex;
+   
+}
+#name{
+    position: top; 
+   padding-left: 40px;
+  
+}
+img{
+    width: 170px;
+    height: 170px;
+    padding-left: 35px;
+    margin-top: 20px;
+   
+}
+
+#green{
+
+font-size: 20px;
+background-color: greenyellow;
+display: inline-flex;
+height :60px;
+width:1190px;
+color: white;
+font-family:'arial'; 
+text-indent: 350px;
+}
+section {
+    float: left;
+    margin: 1 1.5%;
+    width: 53%;
+    height: 650px;
+    background-color: rgb(230, 255, 192);
+  }
+  aside {
+   background-color:rgb(240, 246, 250); 
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 24%;
+    height: 650px;
+    padding-right: 12px;
+  }
+
+  .hi{
+    font-family: 'Times New Roman', Times, serif; 
+    color:rgb(65, 64, 64);
+    list-style:square; 
+   text-indent: 10px;
+  
+ 
+ }
+
+.ee{
+   
+}
+
+ 
