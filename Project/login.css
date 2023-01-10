@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600");
+
+@font-face {
+    font-family: "TTNorms Pro-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/TT Norms Pro Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms Pro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/TT Norms Pro Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms Pro-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/TT Norms Pro Medium.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.ecarticon {
+    top: 131px;
+    left: 896px;
+    width: 129px;
+    height: 41px;
+    margin-top: 10%;
+
+}
+
+header {
+    font-family: "TTNorms Pro-Bold";
+    font-size: 50px;
+    top: 224px;
+    left: 875px;
+    width: 200;
+    height: 65px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 74px;
+    color: #000000;
+    opacity: 1;
+}
+
+.login_exp {
+    font-family: "TTNorms Pro-Regular";
+    font-size: 20px;
+    top: 312px;
+    text-align: center;
+    left: 738px;
+    width: 645px;
+    height: 64px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 1;
+}
+
+.field {
+    font: normal normal 600 14px/16px Inter;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+input {
+
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
+
+}
+
+button {
+    font-family: "TTNorms Pro-Medium";
+    font-size: 16px;
+    top: 639px;
+    left: 676px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #76B139;
+    color: white;
+    padding: 15px;
+    margin: 30px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.forgot {
+    float: right;
+
+    font-family: "TTNorms Pro-Regular";
+    font-size: 16px;
+}
+
+.wrap {
+    font-family: "TTNorms Pro-Regular";
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    margin: auto;
+
+}
+
+.signup {
+    font-family: "TTNorms Pro-Regular";
+    font-size: 20px;
+    padding-top: 60px;
+    left: 738px;
+    width: 455px;
+    height: 100px;
+    text-align: right;
+    line-height: 24px;
+    opacity: 1;
+
+}
+
+.socials {
+    font: normal normal medium 16px/26px Inter;
+    color: #969696;
+    float: center;
+
+}
+
+.fb {
+    top: 874px;
+    left: 877px;
+    width: 90px;
+    height: 60px;
+}
+
+.google {
+    top: 874px;
+    left: 992px;
+    width: 90px;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+
+}

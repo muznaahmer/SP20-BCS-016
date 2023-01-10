@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600");
+
+@font-face {
+    font-family: "TTNorms Pro-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/fonts/TT Norms Pro Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms Pro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/fonts/TT Norms Pro Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms Pro-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/fonts/TT Norms Pro Medium.otf") format("opentype");
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.mainDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F8FAF8;
+    flex-direction: column;
+
+
+}
+
+#logo {
+
+    margin-top: 121px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.signUpDiv {
+
+    margin-top: 62px;
+}
+
+.signUpDiv p {
+    font-size: 65px;
+    font-family: "TTNorms Pro-Bold";
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paraDiv p {
+    margin-top: 23px;
+    font-family: "TTNorms Pro-Regular";
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+
+.inputTextDiv {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+    font-weight: 500;
+
+}
+
+.firstLastNameDiv {
+    display: flex;
+
+}
+
+.lastNameDiv {
+    flex-direction: column;
+}
+
+.emailPasswordDiv {
+    display: flex;
+}
+
+.inputTextDiv ::placeholder{
+    padding: 24px;
+    font-size: 14px;
+    font-family: "Inter";
+}
+
+
+
+
+.textClass {
+    width: 570px;
+    height: 48px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    margin: 14px 30px 27px 0;
+
+}
+
+.buttonTextDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: conter;
+}
+
+.button {
+    width: 570px;
+    height: 56px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    background-color: #76B139;
+font-size: 16px;
+    margin-top: 56px;
+    color: white;
+    font-family: "Inter";
+
+}
+
+.buttonTextDiv p {
+    font-family: "TTNorms Pro-Regular";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 68px
+}
+
+.buttonTextDiv a {
+    color: #76B139;
+    text-decoration: none;
+}
+
+.merchantDriverDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 77px;
+
+
+
+}
+
+.merchantDriverDiv .left {
+    background: #FCF2D8 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    margin-right: 35px;
+    left: 595px;
+    width: 350px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.merchantDriverDiv .left .rightContent p {
+    font-weight: bold;
+    font-family: "Inter";
+    font-size: 17px;
+
+}
